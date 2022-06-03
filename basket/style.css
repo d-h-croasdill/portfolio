@@ -35,6 +35,7 @@ body{
 
 .fancy-table th{
     font-size: 1.2em;
+    padding-bottom:5px;
 }
 
 a{
@@ -55,6 +56,8 @@ a:hover{
 
 summary {
     font-size:1.5em;
+    cursor:pointer;
+    user-select: none;
 }
 
 .l{
@@ -108,8 +111,6 @@ summary {
     margin-left:20px;
     margin-bottom:20px;
 }
-
-
 
 .pdf{
     padding-top:20px;
