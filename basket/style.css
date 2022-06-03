@@ -15,10 +15,26 @@ body{
     
 }
 
-table{
+.port{
     height:95%;
     position: absolute;
     top:0;
+}
+
+.fancy-table{
+    width:100%;
+    text-align: left;
+}
+
+.fancy-table td{
+    border-left:2px solid #6c7776;
+    padding: 10px;
+    margin-bottom:10px;
+    width:50%;
+}
+
+.fancy-table th{
+    font-size: 1.2em;
 }
 
 a{
@@ -64,7 +80,8 @@ summary {
     padding-bottom:5px;
 }
 
-.secret{
+
+.secret:not(:target){
     opacity:0;
     height:0;
     visibility: hidden;
@@ -84,7 +101,6 @@ summary {
 
 .secret{
     text-align: justify;
-
 }
 
 .secret iframe, .secret img{
@@ -92,6 +108,8 @@ summary {
     margin-left:20px;
     margin-bottom:20px;
 }
+
+
 
 .pdf{
     padding-top:20px;
