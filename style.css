@@ -45,7 +45,7 @@ a:hover{
     background-color: red;
     display: inline-block;
     margin-left: 6px;
-    float:right;
+    /* float: right; */
     margin-top: 10px;
 }
 
