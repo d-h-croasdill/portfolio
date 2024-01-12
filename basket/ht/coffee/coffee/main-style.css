@@ -1,0 +1,68 @@
+body{
+				font-family:georgia,sans-serif;
+				background: #ffffea;				
+}
+
+.window-parent{
+   width: 100%;
+				display: flex; 
+				justify-content: center;
+				position:absolute;
+}
+
+.window{
+				top:30px;
+				width:300px;
+	  	height:500px;
+  		border: 3px inset #f7f7e2;
+	  	position:absolute;
+  		background:#fff4d5;
+	  	overflow-x:scroll;
+	  	overflow-y:hidden;
+				
+}
+
+.paper{
+				width:5725px;
+				height:500px;
+				background-image: url(foam-bg.png);
+				background-size:cover;
+				position:absolute;
+}
+
+.prose{
+				width:250px;
+				position:absolute;
+			 padding:8px;
+	   color:#16161d;
+	   	background-image:linear-gradient(#fdfcfa,#ffffff);
+				border: 1px ridge #fff4d5;
+				font-smooth:never;
+				text-align:justify;				
+}
+
+.swipe{
+				font-family:"open sans", monospace;
+				text-align:center;
+				width:100vw;
+				justify-content:center;
+				top:580;
+				position: absolute;
+				display:block;
+}
+
+h1 {
+				font-size: 36;
+				padding-left: 10;
+				position:relative;
+				z-index:3;
+				width:300px;
+}
+h2 {
+				font-size:16;
+				padding-left: 25;
+				position:relative;
+				z-index:3;
+				width:300px;
+}
+
